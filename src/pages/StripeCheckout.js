@@ -19,7 +19,7 @@ export default function StripeChckout() {
 
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
-    fetch("http://localhost:3000/create-payment-intent", {
+    fetch("https://localhost:3000/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ totalAmount:currentOrder.grandtotal }),
