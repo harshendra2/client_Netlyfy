@@ -21,7 +21,7 @@ function Password() {
   const submit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:4000/user/sendpasswordlink", {
+    const res = await fetch("https://caterninja.online/user/sendpasswordlink", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
