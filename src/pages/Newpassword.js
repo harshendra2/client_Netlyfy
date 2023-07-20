@@ -65,18 +65,7 @@ function Newpass() {
     userValid();
   }, []);
 
-  const userValids = () => {
-    let token = localStorage.getItem("userdbtoken");
-    if (!token) {
-     navigate("/")
-    } else {
-      navigate("/dashboard");
-    }
-  };
-
-  useEffect(() => {
-    userValids();
-  }, []);
+ 
 
   return (
     <MDBContainer fluid style={{ backgroundColor: "black", height: "750px" }}>
