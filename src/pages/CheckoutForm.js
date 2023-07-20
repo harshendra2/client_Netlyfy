@@ -62,7 +62,7 @@ const currentOrder={
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        return_url: `/profile`,
+        return_url: `https://caterninja.netlify.app/profile`,
       },
     });
 
