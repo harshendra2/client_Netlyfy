@@ -20,7 +20,7 @@ function Newpass() {
 
   const userValid = async () => {
     const res = await fetch(
-      `http://localhost:4000/user/forgetpassword/${id}/${token}`,
+      `https://caterninja.online/user/forgetpassword/${id}/${token}`,
       {
         method: "GET",
         headers: {
@@ -44,7 +44,7 @@ function Newpass() {
   const sendpassword = async (e) => {
     e.preventDefault();
 
-    const res = await fetch(`http://localhost:4000/user/${id}/${token}`, {
+    const res = await fetch(`https://caterninja.online/user/${id}/${token}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
