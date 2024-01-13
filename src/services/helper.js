@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://caterninja.online"
+export const BACKEND_URL = "https://ninjacater-server.onrender.com"
